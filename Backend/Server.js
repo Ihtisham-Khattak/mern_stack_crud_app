@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 4003
 app.use('/api/workout',workOutRouting)
 
 
-//MOngooose Connection
+//Mongooose Connection
 mongoose.connect(process.env.MONGO_URI)
 .then( () => {
     app.listen( PORT, () => {

@@ -90,8 +90,11 @@ export default function SearchAppBar() {
           <Typography className={classes.title} align="left" variant="h6" noWrap>
             <NavLink to='/' className={classes.activeClass}>JAUTOS </NavLink>
           </Typography>
-          <Typography className={classes.title} align="center" variant="h6" noWrap>
+          <Typography  variant="h6" >
             <NavLink to='/' className={classes.activeClass}>Home</NavLink>
+          </Typography>
+          <Typography varient="h6" className={classes.title}>
+            <NavLink to='workout' className={classes.activeClass}>WorkOut Form</NavLink>
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
